@@ -1,0 +1,75 @@
+/* set the background color */
+body {
+    background-color: #071807;
+    color: #CCC;
+}
+
+/* Apply position for connection container */
+#conn_spotify {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Style the button */
+#conn_spotify button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #1DB954;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+/* Hoover function for the button */
+#conn_spotify button:hover {
+    background-color: #168f3f;
+}
+
+#foot_note {
+    position: fixed;
+    bottom: 0;
+    left: 0px;
+    width: 100%;
+    background-color: #080808; /* Dark background color */
+    color: #fff; /* Text color */
+    padding: 10px;
+    text-align: center;
+    margin-top: auto;
+}
+.navigation {
+    padding-inline-start: 0px;
+}
+.navigation .nav-link {
+    border-radius: 4px;
+    padding: 8px 16px;
+    display: block;
+    color: #2b0ae6;
+    text-decoration: none;
+    margin: 0;
+}
+.navigation .nav-link.active,
+.nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #2b0ae6;
+}
+.nav-item {
+    display: inline-block;
+}
+#navmenu {
+    width: 100%;
+    text-align: center;    
+}
+.head {
+    background-color: #b2afc2;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#playlist {
+    padding-top: 40px;
+    text-align: center;
+}
