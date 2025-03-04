@@ -4,7 +4,7 @@ class DB extends PDO
     public function __construct($dbname = "spotify_api") {
         try {
             // Attempt to establish a connection to the database
-            parent::__construct("mysql:host=localhost;dbname=$dbname;charset=utf8", "root", "password");
+            parent::__construct("mysql:host=localhost;dbname=$dbname;charset=utf8", "username", "password");
             $this->log("success");
         } catch (PDOException $e) {
             $this->log("Error" . $e->getMessage());
